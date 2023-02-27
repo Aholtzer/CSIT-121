@@ -1,0 +1,133 @@
+/* Page */
+html {
+    background-color: peachpuff;
+}
+body {
+    margin: 2.5%;
+    width: 95%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+h1 {
+    margin: 1% 0 1% 0;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    text-transform: uppercase;
+}
+#h2tagline {
+    margin: 1% 0 1% 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+}
+
+/* Intro Section */
+/* Added*/
+#introdiv {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#introtxt {
+    width: 60%;
+    height: 100%;
+}
+img {
+    width: 37.5%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px peachpuff;
+    align-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Ingredient Section */
+.section2half {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+} 
+#i_ul {
+    columns: 2;
+}
+#i_ul1 {
+    margin-bottom: 2.5%;
+}
+
+/* Step Section */
+#stepsection {
+    flex-direction: column;
+}
+#steptitle {
+    margin: 1% 0 0 0;
+}
+#sbody {
+    display: flex;
+}
+.section3rd {
+    width: 33%;
+}
+
+/* Last section */
+#finished {
+    justify-content: space-evenly;
+    height: 30vh;
+}
+/* Added */
+#cookedpan {
+    width: 55%;
+    background-image: url("./images/empanadas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px 10px peachpuff;
+}
+#ftxt {
+    width: 35%;
+}
+
+/* Tags (multiple tag use) */
+section {
+    width: 75%;
+    display: flex;
+    border-top: solid black 1px;
+    align-self: center;
+}
+h2 {
+    text-align: center;
+    margin: 2.5% 0 2.5% 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+}
+h3 {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+}
+ul {
+    margin: 0;
+ }
+
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    font-weight: 500;
+ }
+
+li {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    font-weight: 500;
+ }
+
+a {
+    color: black;
+    font-weight: bold;
+}
