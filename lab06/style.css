@@ -199,5 +199,7 @@ a:hover {
     .ingredientli {
         width: 100%;
     }
+    h2 {
+        text-align: left;
 }
 
