@@ -1,0 +1,272 @@
+/* Page */
+html {
+    background-color: peachpuff;
+}
+body {
+    margin: 2.5%;
+    width: 95%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+#divbody {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+/* Header */
+h1 {
+    margin: 1% 0 1% 0;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    text-transform: uppercase;
+}
+#h2tagline {
+    margin: 1% 0 1% 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+}
+/* Images */
+#imagesdiv {
+    display: flex;
+    width: 100%;
+    border-top: solid black 1px;
+    align-self: center;
+}
+img {
+    width: 50%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px peachpuff;
+    align-self: center;
+    margin: 2%;
+    text-align: center;
+}
+#cookedpan {
+    width: 50%;
+    background-image: url("./images/empanadas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 2%;
+    box-shadow: 0 0 10px 10px peachpuff;
+}
+/* Ingredients and Steps */
+#ingredients {
+    width: 40%;
+}
+#ingredientslist {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.ingredientli {
+    width: 50%;
+    align-self: center;
+    margin-top: 1%;
+}
+#steps {
+    width: 60%;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+.stepli { 
+    width: 70%;  
+}
+#olbottom {
+    margin-bottom: 2%;
+}
+#preheat {
+    justify-content: center;
+}
+#preheatdiv {
+    width: 80%;
+}
+#endpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.endp {
+    width: 80%;
+}
+#topend {
+    margin: 0;
+}
+/* Tags (multiple tag use) */
+section {
+    display: flex;
+    border-top: solid black 1px;
+    align-self: center;
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    
+}
+h3 {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    margin: 0;
+}
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    font-weight: 500;
+ }
+li {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #2A1B0E;
+    font-weight: 500;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+
+/* Media Query for smartphone */ 
+@media (max-width: 768px) {
+    /* Images*/
+    img {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #cookedpan {
+        height: 0%;
+        width: 0%;
+        visibility: hidden;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    /* Ingredients and steps */
+    #mobile-switch {
+        flex-direction: column;
+    }
+    #ingredients {
+        width: 100%;
+    }
+    /* 2 rows at this size */
+    #ingredientslist {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ingredientli {
+        width: 45%;
+    }
+    #steps {
+        width: 100%;
+    }
+    .stepli {
+        width: 100%;
+    }
+    ol {
+        align-items: flex-start;
+    }
+    /* For the before you start and end sections*/
+    #preheatdiv {
+        width: 100%;
+    }
+    #mobile-ul {
+        justify-content: flex-start;
+    }
+    .endp {
+        width: 100%;
+    }
+}
+
+/* At this size the ingredients list becomes single row */ 
+@media (max-width: 524px) {
+    #ingredientslist {
+        flex-direction: column;
+    }
+    #ingredients {
+        width: 100%;
+    }
+    .ingredientli {
+        width: 100%;
+    }
+    h2 {
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+    }
+}
+
+
+#nutritioncontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+table {
+    border: black solid 2px;
+    width: 50%;
+    background-color: white;
+}
+tbody {
+    display: table;
+    width: 100%;
+}
+tr {
+    width: 100%;
+}
+th {
+    display: flex;
+    width: 100%;
+}
+.nTable {
+    margin: 0;
+    color: black;
+    text-align: left;
+}
+.line1 {
+    border-bottom: black 5px solid;
+}
+.lineSmall {
+    border-bottom: black 1px solid;
+}
+.boldtxt {
+    font-weight: bold;
+}
+.col2 {
+    display: flex;
+    justify-content: space-between;
+}
+.lineMD {
+    border-bottom: black 3px solid;
+}
+#rightShift {
+    display: flex;
+    justify-content: end;
+}
+td {
+    font-size: 16px;
+}
+.pushleft {
+    margin-left: 2.5%;
+    width: 97.5%;
+}
+#title {
+    font-size: 30px;
+}
+.col2:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.col2:nth-child(even) {
+    background-color: lightcyan;
+}
