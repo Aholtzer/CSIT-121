@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 10</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: paleturquoise;
+            }
+            #bodybox {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                background-color: wheat;
+                border: solid 2px darkgreen;
+                align-items: center;
+                justify-content: center;
+            }
+            .qcontainer {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            h2 {
+                text-align: center;
+                margin: 0;
+                margin-top: 1%;
+                width: 100%;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                margin-left: 5%;
+                width: 100%;
+            }
+            .numbered {
+                margin-left: 0;
+                list-style-position: outside;
+                list-style: none;
+                font-weight: bold;
+            }
+            .image {
+                display: flex;
+                justify-content: center;
+                margin-left: 0;
+            }
+            #btm {
+                margin-bottom: 2.5%;
+            }
+            @media (max-width: 800px) {
+                .imgchange {
+                    display: flex;
+                    width: 90%;
+                    justify-self: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lab 10</h1>
+        <div id="bodybox">
+            <div class="qcontainer">
+                <h2>XML</h2>
+                <ul>
+                    <li class="numbered">1&#41; What is XML?</li>
+                    <li><p>XML stands for eXtensible Markup Language, meaning that XML is a markup language that is very similar to HTML. Unlike HTML, XML tags are not predefined and XML is made to carry data.</p></li>
+                    <li class="numbered">2&#41; How is XML used?</li>
+                    <li><p>XML is mostly used to markup Web and Mobile Applications. XML is able to exchange data between other systems like databases, other websites, or 3rd party applications. XML can send data back and forth with a web server.</p></li>
+                    <li class="numbered">3&#41; What does XML look like?</li>
+                    <li><p>Here is an example of XML</p></li>
+                    <li class="image"><img src="/media/xmlexample.png" alt="Example of XML code" class="imgchange"></li>
+                </ul>
+            </div>
+            <div class="qcontainer" id="btm">
+                <h2>JavaScript</h2>
+                <ul>
+                    <li class="numbered">1&#41; What is JavaScript?</li>
+                    <li><p>JavaScript is a scripting language that lets you make a webpage dynamic by adding interactivity or complicated features.</p></li>
+                    <li class="numbered">2&#41; How is JavaScript related to HTML and CSS?</li>
+                    <li><p>HTML is the content, CSS is the layout, and JavaScript is the behavior of webpages. For example you create a button with HTML, design it with CSS, and then use JavaScript to give that button some type of functionality.</p></li>
+                    <li class="numbered">3&#41; What are some common JS elements, properties, methods, and functions?</li>
+                    <li><p>A JavaScript element is a variable that holds the data for a HTML element. JS lets you manipulate HTML elements by linking the data of a HTML element to the variable by it's ID, Class, or Tag Type.</p></li>
+                    <li class="image"><img src="/media/jselement.png" alt="JS Elements" class="imgchange"></li>
+                    <li><p>A JavaScript function is a block of code that when executed, will perform a task. You can create your own functions that will do what you want, or you can use some helpful pre-built functions. An example of a pre-built function would be toString(), which can convert a variable's data type to a string.</p></li>
+                    <li class="image"><img src="/media/jsfunc.png" alt="JS Functions" class="imgchange"></li>
+                    <li><p>JavaScript properties with DOM are the element values that you can get or set. For example you can get or change the text of a HTML element with innerHTML. There are also object properties which are variables within the scope of an object, but I don't think that is what you are looking for.</p></li>
+                    <li class="image"><img src="/media/jsprop.png" alt="JS Properties" class="imgchange"></li>
+                    <li><p>A JavaScript method is a function that does some type action to the DOM. For example you can use the innerHTML method to change the text of an HTML element. There are also object methods which are functions within the scope of an object, but again I don't think that is what you are looking for as well.</p></li>
+                    <li class="image"><img src="/media/jsmethod.png" alt="JS Methods" class="imgchange"></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
