@@ -47,7 +47,7 @@ input {
     width: fit-content;
     border: inset #0b0e10 1px;
     padding: 7px;
-    
+    color: black;
 }
 p {
     font-size: 18px;
