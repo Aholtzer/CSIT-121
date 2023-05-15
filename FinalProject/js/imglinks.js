@@ -11,15 +11,15 @@ class image {
 // Image object instances
 const bridge = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/buildingbridge.jpeg", "Building Bridge");
 const whitebuilding = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/architecture.jpeg", "White Building");
-const building = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/building.jpeg", "Building");
-const metro = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/metro.jpeg", "Washington DC Metro");
-const peaches = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/peachtruck.jpeg", "Peach truck");
-const rainPool = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/rainpool.jpeg", "Rain while in the pool");
-const lax = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/lax.jpeg", "Lacrosse");
-const rapids = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/rapids.jpeg", "Kayak in Rapids");
-const lamp = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/lamp.jpeg", "Lamp");
-const beach = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/beach.jpeg", "Beach with Palms");
-const field = new image("https://aholtzer.github.io/CSIT-121/FinalProject//media/field.jpeg", "Field");
+const building = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/building.jpeg", "Building");
+const metro = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/metro.jpeg", "Washington DC Metro");
+const peaches = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/peachtruck.jpeg", "Peach truck");
+const rainPool = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/rainpool.jpeg", "Rain while in the pool");
+const lax = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/lax.jpeg", "Lacrosse");
+const rapids = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/rapids.jpeg", "Kayak in Rapids");
+const lamp = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/lamp.jpeg", "Lamp");
+const beach = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/beach.jpeg", "Beach with Palms");
+const field = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/field.jpeg", "Field");
 // Images array
 const images = [bridge, metro, whitebuilding, lax, beach, building, field, peaches, rainPool, rapids];
 // Tracks current index
