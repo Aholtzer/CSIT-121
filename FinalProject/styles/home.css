@@ -1,0 +1,195 @@
+#homebar {
+    background-color: rgba(0,0,0,0);
+    z-index: 3;
+    align-items: center;
+}
+.homenavitem {
+    color:black;
+}
+#homecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to left top, #035096, #99e5ff);
+}
+#homebox {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 95%;
+    background-image: url("/media/buildingbridge\(1\).jpeg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+    border-color: #0b0e10;
+    border-style: groove;
+    border-width: 10px;
+}
+h1 {
+    margin: 0;
+    font-size: 82px;
+    background-color: rgba(28, 103, 143, 0.7);
+    box-shadow: black 10px 5px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    width: fit-content;
+}
+#home2nd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin-right: 5%;
+}
+#hinsta {
+    font-size: 22px;
+    font-weight: bold;
+    width: fit-content;
+    margin-right: 4%;
+    background-color: rgba(28, 103, 143, 0.7);
+    box-shadow: black 5px 5px;
+}
+#homepginsta {
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(28, 103, 143, 0.7);
+    box-shadow: black 5px 2.5px;
+}
+#homeslideshow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-image: linear-gradient(to left bottom, #035096, #99e5ff);
+    z-index: -3;
+}
+#slideshowcard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-start;
+    margin-top: 7.5%;
+    background-color: rgba(3, 80, 150, 0.5);
+    border: groove #0b0e10 5px;
+}
+#slideshowcard h2, p {
+    font-size: 52px;
+    width: fit-content;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-family: 'Instrument Serif', serif;
+}
+#slideshowcard p {
+    width: 80%;
+    font-size: 22px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: #0b0e10 solid 2px;
+}
+#slideshowcard a {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    width: fit-content;
+    text-decoration: none;
+    color:black;
+    border: inset #0b0e10 2px;
+    padding: 2px;
+    background-color: yellow;
+}
+#slidebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0e10;
+    width: 60%;
+    height: 85%;
+    border-color: #0b0e10; 
+    border-style: groove double;
+    border-width: 10px;
+    margin-top: 4%;
+}
+.imagecard {
+    display: none;
+    z-index: 0;
+    width: 85%;
+    height: 87.5%;
+    justify-content: center;
+    align-items: center;
+}
+.transitioner {
+    animation-name: transitioner;
+    animation-duration: 3s;
+}
+.slidebtn {
+    color: black;
+    width: 7%;
+    height: fit-content;
+    border-color: #0b0e10;
+    font-size: 48px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+@keyframes transitioner {
+    from {opacity: .1}
+    to {opacity: 1}
+}
+@media (max-width: 800px) {
+    #homebox {
+        background-position: center center;
+        height: 85%;
+    }
+    h1 {
+        font-size: 62px;
+    }
+    #homeslideshow {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #slideshowcard {
+        width: 50%;
+    }
+    #slidebox {
+        width: 90%;
+        height: 60%;
+        margin-bottom: 5%;
+    }
+    #slideshowcard {
+        margin-top: 1%;
+    }
+    .slidebtn {
+        font-size: 32px;
+    }
+    #slideshowcard h2 {
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    #homebox {
+        height: 90%;
+        width: 90%;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    #hinsta {
+        width: 100%;
+    }
+    #slidebox {
+        width: 95%;
+    }
+    .slidebtn {
+        height: 25%;
+        font-size: 20px;
+    }
+}

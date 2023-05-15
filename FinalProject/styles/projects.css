@@ -1,0 +1,49 @@
+#projectcontainer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left top, #035096, #99e5ff);
+    padding-top: 2.5%;
+    
+}
+#projectbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categorytitle {
+    font-size: 72px;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 2px;
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+}
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: #0b0e10 solid 5px;
+    width: 95%;
+}
+.category:last-child {
+    border: none;
+}
+
+.categoryimg {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: groove #0b0e10 5px;
+}
+@media (max-width: 800px) {
+    #projectcontainer {
+        padding-top: 10%;
+    }
+}
+@media (max-width: 500px) {
+    #projectcontainer {
+        padding-top: 15%;
+    }
+    .categoryimg {
+        width: 95%;
+    }
+}

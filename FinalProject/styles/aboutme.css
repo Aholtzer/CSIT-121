@@ -1,0 +1,84 @@
+#aboutmecontainer {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to left top, #035096, #99e5ff);
+}
+#photobox {
+    display: flex;
+    width: 50%;
+    height: 65%;
+    text-align: center;
+    background-color: whitesmoke;
+    border: #0b0e10 groove 10px;
+}
+#selfportrait {
+    width: 100%;
+}
+#abinformation {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: #0b0e10 groove 5px;
+}
+#abinformation h2 {
+    font-size: 52px;
+    text-align: center;
+    margin: 2%;
+    font-family: 'Instrument Serif', serif;
+}
+#abinformation p {
+    font-size: 22px;
+    width: 90%;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Instrument Serif', serif;
+}
+#abinformation a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    border: inset #0b0e10 2px;
+    width: 20%;
+    margin: 2%;
+    padding: 5px;
+    text-align: center;
+    background-color: yellow;
+    font-family: 'Instrument Serif', serif;
+}
+@media (max-width: 800px) {
+    #aboutmecontainer {
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 15%;
+    }
+    #photobox {
+        height: 60%;
+        width: 70%;
+    }
+    #abinformation {
+        width: 70%;
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 500px) {
+    #aboutmecontainer {
+        padding-top: 25%;
+    }
+    #abinformation h2 {
+        font-size: 38px;
+    }
+    #abinformation p {
+        font-size: 20px;
+    }
+    #abinformation a {
+        width: fit-content;
+    }
+}
