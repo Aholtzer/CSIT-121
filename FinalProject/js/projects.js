@@ -43,9 +43,9 @@ function displayProjects() {
         for (let j = 1; j < categoryList[i].length; j++){
             // Lamp photo has different dimentions
             if(categoryList[i][j] === lamp) {
-                projectBox += `<img class=categoryimg src=${categoryList[i][j].link} alt=${categoryList[i][j].alt} height=680 width=440>`;
+                projectBox += `<img class=categoryimg src=${categoryList[i][j].link} alt=${categoryList[i][j].altS} height=680 width=440>`;
             } else {
-                projectBox += `<img class=categoryimg src=${categoryList[i][j].link} alt=${categoryList[i][j].alt} height=340 width=580>`; 
+                projectBox += `<img class=categoryimg src=${categoryList[i][j].link} alt=${categoryList[i][j].altS} height=340 width=580>`; 
             }
         }
         // Close the category container and iterate til done
