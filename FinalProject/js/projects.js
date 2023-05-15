@@ -5,6 +5,7 @@ class image {
         this.altS = altS;
     }
 }
+// Links do not show up the same in github
 // Image objects
 const bridge = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/buildingbridge.jpeg", "Building Bridge");
 const whitebuilding = new image("https://aholtzer.github.io/CSIT-121/FinalProject/media/architecture.jpeg", "White Building");
